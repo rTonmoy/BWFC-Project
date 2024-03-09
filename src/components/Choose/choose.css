@@ -1,0 +1,129 @@
+#choose{
+    background-color: #3734A9;
+    padding: 30px 0;
+}
+.choose_left h5{
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.choose_left h2{
+    font-family: "Manrope", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: -3%;
+    width: 480px;
+    line-height: 55px;
+}
+.choose_left p{
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: -3%;
+    width: 380px;
+    line-height: 25px;
+    padding-top: 15px;
+}
+
+.input1 input{
+   width:320px ;
+   height: 50px;
+   box-sizing: border-box;
+   padding-left: 20px;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+   border: none;
+   color: black;
+   margin-bottom: 15px;
+   margin-top: 10px;
+   border: 1px solid black;
+   margin-top: 70px;
+   background-color: #F2F3F4;
+   opacity: 20%;
+}
+.input2 input{
+    width:320px ;
+    height: 50px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    background-color: #F2F3F4;
+    opacity: 20%;
+}
+
+.choose_right a{
+    background-color: #FF7F5C;
+    color: #fff;
+    padding: 10px 121px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+
+
+@media (max-width:575px){
+    .choose_left{
+        text-align: center;
+    }
+    .choose_right{
+        text-align: center;
+    }
+    .choose_left h2{
+        width: 100%;
+    }
+    .choose_left p{
+        width: 100%;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+    .choose_left{
+        text-align: center;
+    }
+    .choose_right{
+        text-align: center;
+    }
+    .choose_left h2{
+        width: 100%;
+    }
+    .choose_left p{
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .choose_left{
+        text-align: center;
+    }
+    .choose_right{
+        text-align: center;
+    }
+    .choose_left h2{
+        width: 100%;
+    }
+    .choose_left p{
+        width: 100%;
+    }
+}

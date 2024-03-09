@@ -1,0 +1,107 @@
+#finance{
+    padding: 40px 0;
+}
+
+.bg_clr{
+    background-color: #F3F7FA;
+    padding: 50px 40px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+.finance_top h5{
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #3734A9;
+    text-transform: uppercase;
+}
+.finance_top h2{
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size:44px;
+    letter-spacing: -3%;
+    padding-bottom: 40px;
+}
+
+.finance_item{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 40px 0px 20px 120px !important;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.finance_item h4{
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+.finance_item p{
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #757095;
+    width: 260px;
+    padding-top: 12px;
+}
+
+.clr{
+    position: absolute;
+    background-color: #F7ECFD;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 42px;
+    left: 33px;
+}
+.clr2{
+    position: absolute;
+    background-color: #D8F5F1;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 42px;
+    left: 33px;
+}
+.clr3{
+    position: absolute;
+    background-color: #D9F1FD;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 42px;
+    left: 33px;
+}
+.clr4{
+    position: absolute;
+    background-color: #FFE4E3;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 42px;
+    left: 33px;
+}

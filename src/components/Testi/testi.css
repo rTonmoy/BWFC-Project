@@ -1,0 +1,157 @@
+.testi_top h5{
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 14 ;
+    color: #3734A9;
+}
+
+.testi_top h3{
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    width: 400px;
+    margin-bottom: 70px;
+}
+
+.next{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    font-size: 30px;
+    position: absolute;
+    bottom: -50px;
+    left: 45px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.next:hover{
+    background-color: #3734A9;
+    color: #fff;
+}
+.prev{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    font-size: 30px;
+    position: absolute;
+    bottom: -50px;
+    left: 0px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.prev:hover{
+    background-color: #3734A9;
+    color: #fff;
+}
+
+.testi_right{
+    padding-left: 30px;
+}
+
+.testi_right h3{
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -3%;
+    width: 250px;
+    padding: 10px 0;
+}
+
+.testi_right p{
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #757095;
+    line-height: 21px;
+    letter-spacing: -2%;
+    width: 410px;
+}
+.testi_right h4{
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #757095;
+    line-height: 21px;
+    letter-spacing: -2%;
+    width: 410px;
+}
+
+.testi_right h5{
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -3%;
+    padding-top: 12px;
+}
+.testi_right h6{
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: -2%;
+    color: #757095;
+}
+
+
+@media (max-width:575px){
+    .testi_right{
+        padding-top: 70px;
+    }
+    .testi_top{
+        text-align: center;   
+    }
+    .testi_top h3{
+        width: 100%;
+    }
+    .testi_left img{
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+    .testi_right{
+        padding-top: 70px;
+    }
+    .testi_top{
+        text-align: center;   
+    }
+    .testi_top h3{
+        width: 100%;
+    }
+    .testi_left img{
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .testi_right{
+        padding-top: 70px;
+    }
+    .testi_top{
+        text-align: center;   
+    }
+    .testi_top h3{
+        width: 100%;
+    }
+    .testi_left img{
+        padding-bottom: 20px;
+    }
+}

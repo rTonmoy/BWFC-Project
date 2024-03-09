@@ -1,0 +1,72 @@
+.bg .navbar-nav a{
+    padding: 0 15px !important;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000 !important;
+}
+
+.bg{
+    padding: 28px !important;
+}
+
+.bg .navbar-nav a:hover{
+    color: #3734A9 !important;
+}
+
+.btnn a{
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    color: #000000 !important;
+    font-size: 14px;
+    transition: .4s;
+    padding: 16px 35px;
+}
+
+.btnn a:hover{
+    background-color: #3734A9;
+
+    box-sizing: border-box;
+    border-radius: 12px;
+    color: #fff !important;
+}
+
+@media (max-width:575px){
+    .bg .navbar-nav a{
+        padding: 6px 0 !important;
+    }
+    .navbar-nav a{
+        text-align: center;
+    }
+    .btnn a{
+        text-align: center;
+        display: inherit !important;
+        padding: 10px 10px !important;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+    .bg .navbar-nav a{
+        padding: 6px 0 !important;
+    }
+    .navbar-nav a{
+        text-align: center;
+    }
+    .btnn a{
+        text-align: center;
+        display: inherit !important;
+        padding: 10px 10px !important;
+    }
+}@media (min-width:768px) and (max-width:991px){
+    .bg .navbar-nav a{
+        padding: 6px 0 !important;
+    }
+    .navbar-nav a{
+        text-align: center;
+    }
+    .btnn a{
+        text-align: center;
+        display: inherit !important;
+        padding: 10px 10px !important;
+    }
+}

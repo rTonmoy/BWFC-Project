@@ -1,0 +1,44 @@
+#footer2{
+    background-color: #1B1C31;
+    padding-top: 15px;
+}
+
+.footer2_left p{
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.footer2_right p{
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+@media (max-width:575px){
+    .footer2_left{
+        text-align: center;
+    }
+    .footer2_right{
+        text-align: center;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+    .footer2_left{
+        text-align: center;
+    }
+    .footer2_right{
+        text-align: center;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .footer2_left{
+        text-align: center;
+    }
+    .footer2_right{
+        text-align: center;
+    }
+}
